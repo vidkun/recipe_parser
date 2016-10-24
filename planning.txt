@@ -1,0 +1,29 @@
+"...read a file containing recipes and turn it into a computer readable format like JSON or just objects...like maps."
+
+avocado salad
+serves 4
+8 oz mixed greens
+2 avocados
+2 tbs olive oil
+1 tbs dijon mustard
+2 tbs roasted pine nuts
+salt
+ground pepper
+
+burgers
+serves 6
+2 lbs ground beef
+6 buns
+lettuce
+2 tomatoes, sliced thinly
+6 slices cheddar cheese
+ketchup
+mustard
+
+milkshake...
+
+
+* write a method that will convert a recipe to any serving size
+* write a method to filter recipes that contain a set of ingredients (e.g. cheese and milk). Assume we're looking for only exact string matches, excluding counts and units (e.g. "3 oz cheese" should match)
+
+ingredients = [ {quantity: "3/4", unit: "cup", item: "water"}, {quantity: "2", unit: "tbs", item: "olive oil"} ]
